@@ -1,0 +1,35 @@
+{
+  "name": "country-transaction-map-back-end",
+  "version": "1.0.0",
+  "description": "That's country transaction map back-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bhautik_mavani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "csv": "^1.1.1",
+    "csvtojson": "^1.1.7",
+    "event-stream": "^3.3.4",
+    "express": "^4.15.3",
+    "express-session": "^1.14.2",
+    "express-validator": "^3.0.0",
+    "fast-csv": "^2.4.0",
+    "fs": "0.0.1-security",
+    "less-middleware": "^2.2.0",
+    "method-override": "^2.3.7",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2017": "^6.24.1"
+  },
+  "keywords": ["express"]
+}
